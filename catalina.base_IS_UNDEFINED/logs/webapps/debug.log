@@ -1,0 +1,20 @@
+2020-01-01 11:07:56.570 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr,phone, shop_img,priority,creat_time,last_edit_time,enable_status,advice) VALUES (?,?,?,?,?,?,?, ?,?,?,?,?,?) 
+2020-01-01 11:07:56.597 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 7(Long), 1(Long), Sally-维洛妮(String), 护肤品维洛妮(String), 西安(String), 15112345678(String), null, 1(Integer), 2020-01-01 11:07:56.188(Timestamp), 2020-01-01 11:07:56.188(Timestamp), 1(Integer), 审核中(String)
+2020-01-01 11:09:05.784 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr,phone, shop_img,priority,create_time,last_edit_time,enable_status,advice) VALUES (?,?,?,?,?,?,?, ?,?,?,?,?,?) 
+2020-01-01 11:09:05.813 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 7(Long), 1(Long), Sally-维洛妮(String), 护肤品维洛妮(String), 西安(String), 15112345678(String), null, 1(Integer), 2020-01-01 11:09:05.439(Timestamp), 2020-01-01 11:09:05.439(Timestamp), 1(Integer), 审核中(String)
+2020-01-01 11:09:05.815 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-01-01 12:08:10.092 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: UPDATE tb_shop SET area_id=?, shop_addr=?, shop_desc=? WHERE shop_id=? 
+2020-01-01 12:08:10.116 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 8(Long), 凤翔(String), 护肤品(String), null
+2020-01-01 12:08:10.117 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 0
+2020-01-01 12:09:38.595 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: UPDATE tb_shop SET area_id=?, shop_addr=?, shop_desc=? WHERE shop_id=? 
+2020-01-01 12:09:38.620 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 8(Long), 凤翔(String), 护肤品(String), 1(Long)
+2020-01-01 12:09:38.621 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 0
+2020-01-01 12:10:15.190 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: UPDATE tb_shop SET area_id=?, shop_addr=?, shop_desc=? WHERE shop_id=? 
+2020-01-01 12:10:15.213 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 8(Long), 凤翔(String), 护肤品(String), 2(Long)
+2020-01-01 12:10:15.215 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-01-01 20:46:48.531 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr,phone, shop_img,priority,create_time,last_edit_time,enable_status,advice) VALUES (?,?,?,?,?,?,?, ?,?,?,?,?,?) 
+2020-01-01 20:46:48.560 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 7(Long), 1(Long), Lucy-Java(String), IT课程(String), 西安(String), 15112345678(String), null, 1(Integer), 2020-01-01 20:46:48.515(Timestamp), 2020-01-01 20:46:48.515(Timestamp), 0(Integer), 审核中(String)
+2020-01-01 20:46:48.561 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
+2020-01-01 21:58:40.156 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr,phone, shop_img,priority,create_time,last_edit_time,enable_status,advice) VALUES (?,?,?,?,?,?,?, ?,?,?,?,?,?) 
+2020-01-01 21:58:40.185 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 7(Long), 1(Long), Lucy-Java(String), IT课程(String), 西安(String), 15112345678(String), null, 1(Integer), 2020-01-01 21:58:40.141(Timestamp), 2020-01-01 21:58:40.141(Timestamp), 0(Integer), 审核中(String)
+2020-01-01 21:58:40.187 [main] DEBUG com.imooc.o2o.dao.ShopDao.insertShop - <==    Updates: 1
