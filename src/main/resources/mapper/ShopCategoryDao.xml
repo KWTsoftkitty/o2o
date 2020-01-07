@@ -6,6 +6,7 @@
 <mapper namespace="com.imooc.o2o.dao.ShopCategoryDao">
 	<select id="queryShopCategory" resultType="com.imooc.o2o.entity.ShopCategory">
 		SELECT 
+		shop_category_id,
 		shop_category_name,
 		shop_category_desc,
 		shop_category_img,

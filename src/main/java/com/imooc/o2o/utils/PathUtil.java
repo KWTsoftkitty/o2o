@@ -1,7 +1,7 @@
 package com.imooc.o2o.utils;
 
 public class PathUtil {
-	private static String seperator = System.getProperty("file.seperator");
+	private static String seperator = System.getProperty("file.separator");
 
 	/**
 	 * 项目图片保存的绝对路径
@@ -16,7 +16,7 @@ public class PathUtil {
 		} else {
 			basePath = "/Users/kwt/javaprojects/o2o/image/";
 		}
-		basePath.replace("/", seperator);
+		basePath = basePath.replace("/", seperator);
 		return basePath;
 	}
 
@@ -27,7 +27,7 @@ public class PathUtil {
 	 * @return
 	 */
 	public static String getShopImagePath(long shopId) {
-		String imagePath = "upload/item/shop/" + shopId + "/";
+		String imagePath = "/upload/item/shop/" + shopId + "/";
 		return imagePath.replace("/", seperator);
 	}
 }

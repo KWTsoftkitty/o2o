@@ -14,4 +14,19 @@ public interface ShopService {
 	 * @return
 	 */
 	ShopExecution addShop(Shop shop, CommonsMultipartFile shopImg);
+	
+	/**
+	 * 根据shop id获取店铺信息
+	 * @param shopId
+	 * @return shop
+	 */
+	Shop getByShopId(long shopId);
+	
+	/**
+	 * 更新店铺信息，包括对图片的处理
+	 * @param shop
+	 * @param shopImg
+	 * @return
+	 */
+	ShopExecution modifyShop(Shop shop, CommonsMultipartFile shopImg);
 }
