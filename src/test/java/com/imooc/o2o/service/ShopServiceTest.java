@@ -2,7 +2,6 @@ package com.imooc.o2o.service;
 
 import static org.junit.Assert.assertEquals;
 
-import java.io.File;
 import java.util.Date;
 
 import org.junit.Test;
